@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'family_info' => 'Family Info',
+    'fname' => 'First Name',
+    'lname' => 'Last Name',
+    'relation_with_applicant' => 'Relation with Applicant',
+    'select_relation' => 'Select Relation',
+    'father' => 'Father',
+	'mother' => 'Mother',
+	'brother' => 'Brother',
+	'sister' => 'Sister',
+	'spouse' => 'Spouse',
+	'daughter' => 'Daughter',
+	'son' => 'Son',
+	'brother_in_law' => 'Brother in law',
+	'sister_in_law' => 'Sister in law',
+	'mother_in_law' => 'Mother in law',
+	'father_in_law' => 'Father in law',
+	'son_in_law' => 'Son in law',
+	'daughter_in_law' => 'Daughter in law',
+    'self' => 'Self',
+    'others' => 'Others',
+    'dob' => 'Date of Birth',
+    'day' => 'Day',
+    'month' => 'Month',
+    'year' => 'Year',
+    'gender' => 'Gender',
+    'select_gender' => 'Select gender',
+    'gender_options' => ['male' => 'Male ', 'female' => 'Female'],
+    'add_family_member' => 'Add Family Member'
+];

@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/public/documents
+/public/uploads
+.DS_Store
+.php_cs.cache
+/.phpintel
+/public/screenshot
+/public/birthday-cards
+/public/DataDump/
+/storage/exports/

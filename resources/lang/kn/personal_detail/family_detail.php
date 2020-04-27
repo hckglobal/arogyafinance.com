@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'family_info' => 'ಕುಟುಂಬದ ಮಾಹಿತಿ',
+    'fname' => 'ಮೊದಲ ಹೆಸರು',
+    'lname' => 'ಕೊನೆಯ ಹೆಸರು',
+    'relation_with_applicant' => 'ರೋಗಿಯೊಂದಿಗೆ ಸಾಲಗಾರರ ಸಂಬಂಧ',
+    'select_relation' => 'ಸಂಬಂಧವನ್ನು ಆಯ್ಕೆಮಾಡಿ',
+    'father' => 'ತಂದೆ ',
+    'mother' => 'ತಾಯಿ',
+    'brother' => 'ಸಹೋದರ',
+    'sister' => 'ಸೋದರಿ',
+    'spouse' => 'ಜೀವನ ಸಂಗಾತಿ',
+    'daughter' => 'ಮಗಳು',
+    'son' => 'ಮಗ',
+    'brother_in_law' => 'ಬಾವಮೈದುನ',
+    'sister_in_law' => 'ಅತ್ತಿಗೆ-ನಾದಿನಿ',
+    'mother_in_law' => 'ಅತ್ತೆ',
+    'father_in_law' => 'ಮಾವ',
+    'son_in_law' => 'ಅಳಿಯ',
+    'daughter_in_law' => 'ಸೊಸೆ',
+    'self' => 'ಸ್ವತಃ',
+    'others' => 'ಇತರರು',
+    'dob' => 'ಹುಟ್ಟಿದ ದಿನಾಂಕ',
+    'day' => 'ದಿನಾಂಕ',
+    'month' => 'ತಿಂಗಳು',
+    'year' => 'ವರ್ಷ',
+    'gender' => 'ಲಿಂಗ',
+    'select_gender' => 'ಲಿಂಗ ಆಯ್ಕೆ ಮಾಡಿ',
+    'gender_options' => ['male' => 'ಪುರುಷ ', 'female' => 'ಸ್ತ್ರೀ'],
+    'add_family_member' => 'ಕುಟುಂಬದ ಮಾಹಿತಿ'
+];

@@ -1,0 +1,30 @@
+[14-Nov-2016 07:54:15 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[14-Nov-2016 07:54:18 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[14-Nov-2016 07:54:20 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[14-Nov-2016 07:54:27 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[14-Nov-2016 07:54:55 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[14-Nov-2016 07:55:00 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[14-Nov-2016 07:55:29 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arogy22m/public_html/app/Helpers/Helpers.php on line 3
+[21-Jun-2017 09:54:33 Etc/GMT] PHP Fatal error:  Class 'PHPExcel_Shared_Font' not found in /home/webtvsne/public_html/awkword.in/staging/arogya/config/excel.php on line 182
+[04-Aug-2017 07:49:08 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 07:50:50 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 07:51:28 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 07:55:03 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 07:59:38 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 08:02:42 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 08:06:26 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 08:07:39 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 08:14:08 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[04-Aug-2017 09:43:44 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[07-Aug-2017 07:38:34 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[07-Aug-2017 13:13:30 Asia/Kolkata] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/arogy22m/public_html/bootstrap/cache/compiled.php on line 6976
+[27-Oct-2017 12:27:43 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[27-Oct-2017 17:58:34 Asia/Kolkata] PHP Fatal error:  Class 'Milon\Barcode\BarcodeServiceProvider' not found in /home/arogy22m/public_html/bootstrap/cache/compiled.php on line 6976
+[30-Oct-2017 07:11:56 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[30-Oct-2017 07:16:02 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[08-Nov-2017 05:51:27 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[15-Dec-2017 06:39:24 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[21-Dec-2017 17:38:56 Asia/Kolkata] PHP Fatal error:  Class 'Milon\Barcode\BarcodeServiceProvider' not found in /home/arogy22m/public_html/bootstrap/cache/compiled.php on line 6976
+[17-Feb-2018 08:53:17 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[17-Feb-2018 09:22:31 Etc/GMT] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php on line 954
+[30-May-2018 04:50:03 Etc/GMT] PHP Fatal error:  Out of memory (allocated 1027866624) (tried to allocate 64 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Rule.php on line 76

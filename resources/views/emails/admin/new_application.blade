@@ -1,0 +1,6 @@
+New Application Recived<br>
+Name : {{$application->borrower->first_name}} {{$application->borrower->middle_name}} {{$application->borrower->last_name}}<br>
+Location : {{$application->borrower->city}} , {{$application->borrower->state}} <br>
+<br>
+<a href="https://arogyafinance.com/admin/application/{{$application->type}}/detail/{{$application->id}}"> View in Dashboard
+</a> 

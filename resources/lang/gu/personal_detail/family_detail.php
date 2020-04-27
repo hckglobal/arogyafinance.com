@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'family_info' => 'પરિવારની વિગતો',
+    'fname' => 'પ્રથમ નામ',
+    'lname' => 'અટક',
+    'relation_with_applicant' => 'અરજી કરનાર સાથે સંબંધ',
+    'select_relation' => 'સંબંધ પસંદ કરો',
+    'father' => 'પિતા',
+    'mother' => 'માતા',
+    'brother' => 'ભાઈ',
+    'sister' => 'બહેન',
+    'spouse' => 'પત્ની',
+    'daughter' => 'પુત્રી',
+    'son' => 'પુત્ર',
+    'brother_in_law' => 'બનેવી',
+    'sister_in_law' => 'સાળી',
+    'mother_in_law' => 'સાસુ',
+    'father_in_law' => 'સસરા',
+    'son_in_law' => 'જમાઈ',
+    'daughter_in_law' => 'પુત્રવધુ',
+    'self' => 'જાતે',
+    'others' => 'અન્યો',
+    'dob' => 'જન્મની તારીખ',
+    'day' => 'દિવસ',
+    'month' => 'મહિનો',
+    'year' => 'વર્ષ',
+    'gender' => 'જાતિ',
+    'select_gender' => 'જાતિ પસંદ કરો',
+    'gender_options' => ['male' => 'પુરુષ ', 'female' => 'સ્ત્રી'],
+    'add_family_member' => 'પરિવારના સભ્ય ઉમેરો'
+];

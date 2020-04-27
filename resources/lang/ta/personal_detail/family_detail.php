@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'family_info' => 'குடும்பத்தின் தகவல்',
+    'fname' => 'முதற் பெயர்',
+    'lname' => 'கடைசி பெயர்',
+    'relation_with_applicant' => 'விண்ணப்பதாரருடன் ஆன தொடர்பு',
+    'select_relation' => 'உறவைத் தேர்ந்தெடுக்கவும்',
+    'father' => 'தந்தை',
+    'mother' => 'தாய்',
+    'brother' => 'சகோதரன்',
+    'sister' => 'சகோதரி',
+    'spouse' => 'கணவன்/மனைவி',
+    'daughter' => 'மகள்',
+    'son' => 'மகன்',
+    'brother_in_law' => 'மைத்துனன்',
+    'sister_in_law' => 'அண்ணி',
+    'mother_in_law' => 'மாமியார்',
+    'father_in_law' => 'மாமனார்',
+    'son_in_law' => 'மருமகன்',
+    'daughter_in_law' => 'மருமகள்',
+    'self' => 'எனக்கு/ சுயம்',
+    'others' => 'மற்றவர்',
+    'dob' => 'பிறந்த நாள்',
+    'day' => 'நாள்',
+    'month' => 'மாதம்',
+    'year' => 'வருடம்',
+    'gender' => 'பாலினம்',
+    'select_gender' => 'பாலினத்தை தேர்ந்தெடுக்கவும்',
+    'gender_options' => ['male' => 'ஆண் ', 'female' => 'பெண்'],
+    'add_family_member' => 'குடும்ப உறுப்பினரை சேர்க்கவும்'
+];

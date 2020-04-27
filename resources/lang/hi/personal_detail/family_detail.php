@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'family_info' => 'पारिवारिक सूचना',
+    'fname' => 'प्रथम नाम',
+    'lname' => 'अंतिम नाम',
+    'relation_with_applicant' => 'आवेदक के साथ सम्बन्ध',
+    'select_relation' => 'सम्बन्ध चुनें',
+    'father' => 'पिता',
+    'mother' => 'मां',
+    'brother' => 'भाई',
+    'sister' => 'बहन',
+    'spouse' => 'पति या पत्नी',
+    'daughter' => 'बेटी',
+    'son' => 'बेटा',
+    'brother_in_law' => 'ब्रदर इन लॉ',
+    'sister_in_law' => 'सिस्टर इन लॉ',
+    'mother_in_law' => 'सास',
+    'father_in_law' => 'ससुर',
+    'son_in_law' => 'दामाद',
+    'daughter_in_law' => 'बहु',
+    'self' => 'स्वयं',
+    'others' => 'अन्य',
+    'dob' => 'जन्मतिथि',
+    'day' => 'दिन',
+    'month' => 'माह',
+    'year' => 'वर्ष',
+    'gender' => 'लिंग',
+    'select_gender' => 'लिंग चुनें',
+    'gender_options' => ['male' => 'पुरुष ', 'female' => 'महिला'],
+    'add_family_member' => 'परिवार के सदस्य को जोड़ें'
+];

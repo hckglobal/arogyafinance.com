@@ -1,0 +1,295 @@
+@extends('admin.app')
+
+@section('title') 
+Change logs
+@endsection
+
+@section('styles')
+<!-- DataTables -->
+<link rel="stylesheet" href="/assets/admin/plugins/datatables/dataTables.bootstrap.css">
+@endsection
+
+@section('active-dashboard')
+class="active"
+@endsection
+
+@section('content')
+
+<div class="content-wrapper">
+    @include('admin.partials.content-header')
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <div class="box-body">
+                        <div class="container-fluid">
+                            <!-- Changelogs -->
+                            <div class="row clearfix">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  3.21.0
+                                                <small class="pull-right">15th January 2019</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Analytics MIS Date Filter</h4></li>
+                                                <ul>
+                                                    <li>Modified MIS Analytics date filter, replaced year & month date filter with From & To date filter.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.20.0
+                                                <small class="pull-right">14th January 2019</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Dashboard Search Result</h4></li>
+                                                <ul>
+                                                    <li>Search result wil display data based on user(FC) logged into the system.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.19.0
+                                                <small class="pull-right">11th January 2019</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Merchant Applications Data</h4></li>
+                                                <ul>
+                                                    <li>Merchant can only fetch and query the applications related to them.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.18.0
+                                                <small class="pull-right">11th January 2019</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Added Psychometric Test Result in API</h4></li>
+                                                <ul>
+                                                    <li>Merchant can view the psychometric test result while fetching applications detail</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.17.0
+                                                <small class="pull-right">10th January 2019</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Dashboard Updates</h4></li>
+                                                <ul>
+                                                    <li>Disbursement date - enable to edit disbursement date.</li>
+                                                    <li>Enable menu to download Sanction,MID & DPN after sanction stage.</li>
+                                                    <li>Display primary borrower first followed by co-borrower & guarantor.</li>
+                                                    <li>Remove delete button from search result.</li>
+                                                    <li>Rename lead applications to partial application from loan & card application
+                                                    menu.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.12.1
+                                                <small class="pull-right">21th December 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>EMI Notifications</h4></li>
+                                                <ul>
+                                                    <li>EMI Notification is sent to all the borrowers whoes EMI need tobe collected based on A/C repayment schedule.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.11.1
+                                                <small class="pull-right">21th December 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>CIBIL Deduplication (Release #001)</h4></li>
+                                                <ul>
+                                                    <li>If a new application comes in it will be checked against CIBIL duplication.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.10.1
+                                                <small class="pull-right">16th November 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Outstanding Principal Report</h4></li>
+                                                <ul>
+                                                    <li>Added Outstanding Principal as sub-menu in
+                                                    Master Report menu for generating all disbursed cases outstanding principal report.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="header">
+                                            <h3> V  3.9.1
+                                                <small class="pull-right">3rd October 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Digio (Mandate creation)</h4></li>
+                                                <ul>
+                                                    <li>Added a menu in User Dashboard to apply for Mandate once mandate is created & signed, it's status will be displayed in User Dashboard & Backend.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  3.8.1
+                                                <small class="pull-right">10th September 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Delete Borrower Bug</h4></li>
+                                                <ul>
+                                                    <li>Resolved</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  3.8.0
+                                                <small class="pull-right">31st August 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Lead Applications</h4></li>
+                                                <ul>
+                                                    <li>Added Lead applications as sub-menu in Loan & Card Applicaitons</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  3.7.0
+                                                <small class="pull-right">1st August 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Birthday Card</h4></li>
+                                                <ul>
+                                                    <li>Happy Birthday Email will be sent to all the borrower's having birthday daily at 8AM.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  3.6.0
+                                                <small class="pull-right">21th July 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Psychometric Test</h4></li>
+                                                <ul>
+                                                    <li>Old Psychometric test system is replaced with the new Psychometric test system.</li>
+                                                </ul>
+                                                <li><h4>Category based document upload</h4></li>
+                                                <ul>
+                                                    <li>Based on the category of application document need to be uploaded.
+                                                    </li>
+                                                </ul>
+                                                <li><h4>Lead Import</h4></li>
+                                                <ul>
+                                                    <li>Added product option in lead.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  2.4.0
+                                                <small class="pull-right">4th July 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Today's Disbursement</h4></li>
+                                                <ul>
+                                                    <li>Added new feature in menu to view and export todays disbursed applications.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  2.3.0
+                                                <small class="pull-right">4th July 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Repayment Schedule</h4></li>
+                                                <ul>
+                                                    <li>Added new menu under application update button i.e Repayment schedule (auto-generated for each application).</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  2.2.0
+                                                <small class="pull-right">4th July 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>Category Breakdown</h4></li>
+                                                <ul>
+                                                    <li>Reworked on category breakdown based on cibil score.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="header">
+                                            <h3> V  2.1.0
+                                                <small class="pull-right">28th April 2018</small>
+                                            </h3>
+                                        </div>
+                                        <div class="body">
+                                            <ul>
+                                                <li><h4>AWS</h4></li>
+                                                <ul>
+                                                    <li>Moved Arogya to AWS server.</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>                                                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@endsection
+
+
